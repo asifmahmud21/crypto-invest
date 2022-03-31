@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>SpringHyip</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"> -->
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="assets/css/particle.css">
+  <link rel="stylesheet" href="assets/css/selectric.css">
+
+  <!-- cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Spring<span>HYIP</span></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="about.html">About</a></li>
+          <li><a class="nav-link scrollto" href="plan.html">Invest Plans</a></li>
+          <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="header-right d-flex align-items-center">
+        <a href="register.html" class="get-started-btn" style="margin-right: 20px;">Register</a>
+                <select class="form-select selectric" aria-label="Default select example">
+                    <option selected>English</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Banner Section ======= -->
+  <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div style="position:absolute;top:0;left:0;width:100vw">
+      <img class="img-fluid img-spin" src="assets/img/crypto.jpg" alt="">
+    </div>
+    <div class="container" data-aos="fade-up">
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-8 col-lg-8">
+          <h1>High Returns With Calculated Risk<span>.</span></h1>
+        </div>
+      </div>
+
+      <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+        <div class="col-xl-10 col-12 d-flex banner-calc-box">
+          <div class="banner-calc col-lg-4">
+            <h4 class="text-white mbl-h">Amount</h4>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="banner-calc col-lg-4">
+            <h4 class="text-white mbl-h">Investment Plan</h4>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="banner-calc-btn col-lg-4">
+            <a href="#" id="calculate-btn" class="btn btn-main" data-bs-toggle="modal" data-bs-target="#exampleModal"> Calculate Earnings</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Banner -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about d-flex align-items-center" style="background-image: url(assets/img/bg-about.jpg);background-size: cover; background-position: center;">     
+      <div class="container" data-aos="fade-up">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-1 order-lg-1 pt-4" data-aos="fade-left" data-aos-delay="100">
+            <div class="shapes float w-100">
+              <!-- <img style="width: 87%;" class="triangle spin bit-about" src="https://pngimg.com/uploads/bitcoin/bitcoin_PNG25.png"> -->
+              <img style="width: 87%;" class="triangle spin bit-about" src="assets/img/about_bitcoin.png">
+                           
+            </div>
+          </div>
+          <div class="col-lg-6 py-4 pt-lg-0 order-2 order-lg-2 content" data-aos="fade-right" data-aos-delay="100">
+            <h3 class="text-white">About Us</h3>
+            <p class="text-white">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, velit? Molestias velit odit facere, similique illo expedita reiciendis quasi fugiat.
+            </p>
+            <a class="btn btn-main" href="#">Read More</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+   
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services" style="background-image: url(assets/img/card-bg.jpg); background-size: cover;background-position: center;">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <p class="text-white text-center">Why Choose Us</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="feature-box">
+              <h4><a href="">Lorem Ipsum</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="feature-box">
+              <h4><a href="">Sed ut perspiciatis</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="feature-box">
+              <h4><a href="">Magni Dolores</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="feature-box">
+              <h4><a href="">Nemo Enim</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="feature-box">
+              <h4><a href="">Dele cardo</a></h4>
+              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="feature-box">
+              <h4><a href="">Divera don</a></h4>
+              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="feature-box">
+              <h4><a href="">Divera don</a></h4>
+              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="feature-box">
+              <h4><a href="">Divera don</a></h4>
+              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="feature-box">
+              <h4><a href="">Divera don</a></h4>
+              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Investment Plans Section ======= -->
+    <section style="background-image: url(assets/img/black-bg.jpg);background-size: cover;background-position: center; "  id="investment" class="portfolio">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <p class="text-white text-center">Investment Plans</p>
+        </div>
+        <div class="row ">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class=" p-3 swiper-content">
+                  <div class="invest-card p-3">
+                    <div class="invest-top">
+                      <h4 class="text-center"><b>Plan One</b></h4>
+                    </div>
+                      <h5 class="text-center my-3 animate__animated animate__heartBeat animate__slower animate__infinite"><b>100$ -300$</b></h5>
+                    <div class="plan-features">
+                      <ul class="invest">
+                        <li> Return 12.00 % </li>
+                        <li>Every Day</li>
+                        <li>For 10 Times</li>
+                      </ul>
+                    </div>
+                    <div class="invest-action ">
+                        <a class="btn btn-outline-main mt-3" href="#">Invest</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class=" p-3 swiper-content">
+                  <div class="invest-card p-3">
+                    <div class="invest-top">
+                      <h4 class="text-center"><b>Plan Two</b></h4>
+                    </div>
+                      <h5 class="text-center my-3 animate__animated animate__heartBeat animate__slower animate__infinite"><b>300$ -500$</b></h5>
+                    <div class="plan-features">
+                      <ul class="invest">
+                        <li> Return 12.00 % </li>
+                        <li>Every Day</li>
+                        <li>For 10 Times</li>
+                      </ul>
+                    </div>
+                    <div class="invest-action ">
+                        <a class="btn btn-outline-main mt-3" href="#">Invest</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class=" p-3 swiper-content">
+                  <div class="invest-card p-3">
+                    <div class="invest-top">
+                      <h4 class="text-center"><b>Plan Three</b></h4>
+                    </div>
+                      <h5 class="text-center my-3 animate__animated animate__heartBeat animate__slower animate__infinite"><b>500$ -800$</b></h5>
+                    <div class="plan-features">
+                      <ul class="invest">
+                        <li> Return 12.00 % </li>
+                        <li>Every Day</li>
+                        <li>For 10 Times</li>
+                      </ul>
+                    </div>
+                    <div class="invest-action ">
+                        <a class="btn btn-outline-main mt-3" href="#">Invest</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class=" p-3 swiper-content">
+                  <div class="invest-card p-3">
+                    <div class="invest-top">
+                      <h4 class="text-center"><b>Plan Four</b></h4>
+                    </div>
+                      <h5 class="text-center my-3 animate__animated animate__heartBeat animate__slower animate__infinite"><b>800$ -1000$+</b></h5>
+                    <div class="plan-features">
+                      <ul class="invest">
+                        <li> Return 12.00 % </li>
+                        <li>Every Day</li>
+                        <li>For 10 Times</li>
+                      </ul>
+                    </div>
+                    <div class="invest-action ">
+                        <a class="btn btn-outline-main mt-3" href="#">Invest</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section><!-- End Investment Plans Sectio -->
+
+    <!--How it work Section-->
+
+    <section id="timeline" >
+      <div class="animation-wrapper">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"> </div>
+        <div class="particle particle-3"></div>
+        <div class="particle particle-4"></div>
+      </div>
+      <div class="container">
+        <div class="section-title">
+          <p class="text-white text-center">How It Works</p>
+        </div>
+        <div class="timeline-wrapper">
+          <div class="tl-item">
+          
+            <div class="tl-bg" style="background-image: url(assets/img/crypto-bg5.jpg)"></div>
+            
+            <div class="tl-year">
+              <p class="f2 heading--sanSerif mb-2"><i class="fas fa-user-tie"></i></p>
+            </div>
+        
+            <div class="tl-content">
+              <h3>Create Account</h3>
+              <p> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+            </div>
+        
+          </div>
+        
+          <div class="tl-item">
+            
+            <div class="tl-bg" style="background-image: url(assets/img/crypto-bg2.jpg)"></div>
+            
+            <div class="tl-year">
+              <p class="f2 heading--sanSerif mb-2"><i class="fas fa-scroll"></i></p>
+            </div>
+        
+            <div class="tl-content">
+              <h3>Choose Plan</h3>
+              <p>mauris nibh, facilisis ut hendrerit vel, fringilla sed felis. Morbi sed nisl et arcu.</p>
+            </div>
+        
+          </div>
+        
+          <div class="tl-item">
+            
+            <div class="tl-bg" style="background-image: url(assets/img/crypto-bg3.jpg)"></div>
+            
+            <div class="tl-year">
+              <p class="f2 heading--sanSerif"><i class="fas fa-hand-holding-usd"></i></p>
+            </div>
+        
+            <div class="tl-content">
+              <h3>Invest</h3>
+              <p>Etiam id cursus arcu, in dapibus nibh. Pellentesque non porta leo. Nulla eros odio, egestas quis efficitur</p>
+            </div>
+        
+          </div>
+        
+          <div class="tl-item">
+            
+            <div class="tl-bg" style="background-image: url(assets/img/crypto-bg4.jpg)"></div>
+            
+            <div class="tl-year">
+              <p class="f2 heading--sanSerif"><i class="fas fa-dollar-sign"></i></p>
+            </div>
+        
+            <div class="tl-content">
+              <h3>Profit</h3>
+              <p> Curabitur diam quam, blandit at risus nec, pulvinar porttitor lorem. Pellentesque dolor elit.</p>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+      
+    </section><!-- End How it work Section-->
+
+    <!-- ======= Team Section ======= -->
+    <section  id="team" class="team" style="background-image: url(assets/img/faq-bg.jpg);background-position: center;background-size: cover;background-attachment: fixed;">
+       
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <p class="text-white text-center">FAQ</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <div class="faq-media">
+              <img class="img-fluid" src="assets/img/faq-svg2.svg" alt="">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    When can I deposit/withdraw from my Investment account?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, corporis illo. Earum hic minima quia eos, repellat blanditiis accusamus totam?</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How do I check my account balance?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias fuga sit architecto sint voluptas adipisci similique magnam iusto magni sequi?</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    I forgot my password, what should I do?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, voluptatum tenetur quae quod commodi expedita deserunt illum similique incidunt earum.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    How will I know that the withdrawal has been successful?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias odio labore impedit esse atque reiciendis explicabo excepturi officia earum illum.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    How much can I withdraw?
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem animi consequatur, voluptatum aut eum quisquam a vitae laborum nulla ipsa.</p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+       <!-- ======= Transaction Section ======= -->
+       <section id="team" class="team">
+        <div class="animation-wrapper">
+          <div class="particle particle-1"></div>
+          <div class="particle particle-2"> </div>
+          <div class="particle particle-3"></div>
+          <div class="particle particle-4"></div>
+        </div>
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <p class="text-white text-center">Transaction</p>
+          </div>
+  
+          <div class="row">
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+              <li style="margin-right: 20px;" class="nav-item" role="presentation">
+                <button class="nav-link btn-outline-main active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Latest Deposit</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link btn-outline-main" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Latest Withdraws</button>
+              </li>
+            </ul>
+            <div class="tab-content d-flex justify-content-center" id="pills-tabContent">
+              <div class="tab-pane fade show active animate__animated animate__zoomIn w-75" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <table class="table">
+                  <thead>
+                    <tr class="bg-yellow">
+                      <th scope="col">First</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Handle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <td>Larry the Bird</td>
+                      <td>@twitter</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="tab-pane fade animate__animated animate__zoomIn w-75" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <table class="table">
+                  <thead>
+                    <tr class="bg-yellow">
+                      <th scope="col">First</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Handle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <td>Larry the Bird</td>
+                      <td>@twitter</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </section><!-- End Transaction Section -->
+
+      
+
+     <!-- ======= Cta Section ======= -->
+     <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="col-lg-12 col-md-12 text-center newsletter">
+          <h4>Our Newsletter</h4>
+          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          <form action="" method="post">
+            <input id="sub" type="email" name="email"><button class="btn-sub">Subscribe</button>
+          </form>
+
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="animation-wrapper">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"> </div>
+        <div class="particle particle-3"></div>
+        <div class="particle particle-4"></div>
+      </div>
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <p class="text-white text-center">Top Investors</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <div class="member-info">
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <div class="member-info">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <div class="member-info">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <div class="member-info">
+                  <h4>Amanda Jepson</h4>
+                  <span>Accountant</span>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+    
+
+    <!-- ======= Testimonials Section ======= -->
+    <section style="display: none;" id="testimonials" class="testimonials">
+      <div class="container" data-aos="zoom-in">
+        <div class="section-title">
+          <p class="text-white text-center">What Our Clients Say</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h1>SpringHYIP</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, eveniet excepturi sequi veritatis repellendus placeat, natus fugiat voluptatem molestiae temporibus ipsa accusantium repudiandae vero ipsum numquam nesciunt nemo culpa corrupti?</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+         </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h4>Location</h4>
+              <p>
+                A108 Adam Street <br>
+                NY 535022, USA<br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>SpringHYIP</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#">SpringSoftIT</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content bg-dark text-white">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close btn btn-warning" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <table id="profit-table" class="table w-100">
+            <tr>
+              <td>Plan</td>
+              <td>Plane One</td>
+            </tr>
+            <tr>
+              <td>Amount</td>
+              <td>USD 200$</td>
+            </tr>
+            <tr>
+              <td>Payout Period</td>
+              <td>2 Days</td>
+            </tr>
+            <tr>
+              <td>Maturity</td>
+              <td>50 Days</td>
+            </tr>
+            <tr>
+              <td>Profit</td>
+              <td>400$</td>
+            </tr>
+          </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-main">Invest</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/selectric.min.js"></script>  
+  <!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+     var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      autoplay: {
+    delay: 3000,
+  },
+    });
+  </script>
+
+</body>
+
+</html>
